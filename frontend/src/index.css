@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #0f172a; /* Biru Gelap Modern */
+    color: #e2e8f0;
+    font-family: 'Courier New', Courier, monospace; /* Terminal Font */
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #0f172a; }
+::-webkit-scrollbar-thumb { background: #0ea5e9; border-radius: 4px; }
+
+.glass-card {
+    background: rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    border-radius: 12px;
+}
+
+.terminal-text {
+    text-shadow: 0 0 5px rgba(14, 165, 233, 0.5);
+}
